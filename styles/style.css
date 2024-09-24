@@ -40,8 +40,6 @@ address {
     line-height: 24.3px;
     text-align: left;
     width: 240.52px;
-    height: 98px;
-    
 }
 .cover {
     display: flex;
@@ -59,6 +57,12 @@ address {
 }
 .cover_title {
     z-index: 3;
+    margin-top: 165px;
+    margin-left: 50px;
+    margin-bottom: 135px;
+    margin-right: 50px;
+    letter-spacing: 30px;
+
 }
 /* оно */
 .aligned-text {
@@ -66,10 +70,7 @@ address {
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
-    letter-spacing: 0.3em;
     justify-content: start;
-    margin-top: 165px;
-    margin-left: 50px;
     margin-bottom: 20px;
 }
 
@@ -79,7 +80,6 @@ address {
     font-size: 100px;
     font-weight: 700;
     line-height: 100px;
-    letter-spacing: 0.3em;
     justify-content: center;
     margin-bottom: 20px;
 }
@@ -89,15 +89,13 @@ address {
     font-size: 100px;
     font-weight: 700;
     line-height: 100px;
-    letter-spacing: 0.6em;
     justify-content: end;
-    margin-bottom: 135px;
 }
 .letter-spacing-extended {
     letter-spacing: 0.6em;
 }
 .no-letter-spacing {
-    letter-spacing: 0.3em;
+    letter-spacing: normal;
 }
 .overlay {
     width: 100%;
@@ -128,7 +126,8 @@ address {
 .bet-button {
     color: #FFF;
     background: transparent;
-    border: 1px solid #FFFFFF;
+    border: 1px solid currentColor;
+    font-family: Raleway, sans-serif;
     width: 256px;
     height: 51px;
     font-size: 22px;
@@ -181,30 +180,21 @@ article {
     justify-content: space-between;
     flex-grow: 1;
     height: 100%;
+}
+.card {
+    background-size: cover;
+    background-position: center;
+    width: 334px;
+    min-height: 563px;
 } 
 .card_type_film {
-
     background-image: url(../images/card-lot-01.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 334px;
-    height: 563px;
 }
 .card_type_book {
-
     background-image: url(../images/card-lot-02.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 334px;
-    height: 563px;
 }
 .card_type_picture {
-
     background-image: url(../images/card-lot-03.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 334px;
-    height: 563px;
 }
 
 .card_title {           /*заголовки карточек*/
