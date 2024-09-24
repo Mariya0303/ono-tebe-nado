@@ -172,7 +172,7 @@ article {
     position: relative;
 
 }
-.card-link {  
+.card-link {
     display: flex; /*ссылка*/
     text-decoration: none;
     flex-wrap: nowrap;
