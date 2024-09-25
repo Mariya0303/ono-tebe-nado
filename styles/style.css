@@ -12,13 +12,12 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    column-gap: 30px;
+    column-gap: 32px;
     list-style: circle;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
     text-align: left;
-
 }
 .header_links-list-item_no-bullit {
     list-style-type: none;
@@ -32,7 +31,6 @@
     height: 105px;
     margin-left: 36px;
     margin-right: 184px;
-
 }
 address {
     font-size: 18px;
@@ -40,6 +38,7 @@ address {
     line-height: 24.3px;
     text-align: left;
     width: 240.52px;
+    font-style: normal;
 }
 .cover {
     display: flex;
@@ -53,7 +52,7 @@ address {
     background-position: center;
     color: #FFFFFF;
     margin-bottom: 179px;
-
+    text-transform: uppercase;
 }
 .cover_title {
     z-index: 3;
@@ -62,7 +61,6 @@ address {
     margin-bottom: 135px;
     margin-right: 50px;
     letter-spacing: 30px;
-
 }
 /* оно */
 .aligned-text {
@@ -135,6 +133,7 @@ address {
     line-height: 25.83px;
     text-align: center;
     margin-right: 10px;
+    text-transform: uppercase;
 }
 .lots {                 /*секция*/
     display: flex;
@@ -151,9 +150,7 @@ address {
     font-weight: 700;
     line-height: 46.96px;
     text-align: left;
-
-
-
+    text-transform: uppercase;
 }
 .lots_card-list {           /*список*/
     display: flex;
@@ -169,7 +166,6 @@ article {
 .lots_card-list-item {          /*элементы списка*/
     color: #FFF;
     position: relative;
-
 }
 .card-link {
     display: flex; /*ссылка*/
@@ -196,7 +192,6 @@ article {
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
 }
-
 .card_title {           /*заголовки карточек*/
     display: flex;
     margin-left: 40px;
@@ -208,6 +203,7 @@ article {
     text-align: left;
     text-decoration: underline;
     z-index: 3;
+    text-transform: uppercase;
 }
 .card_text {
     display: flex;
@@ -244,7 +240,6 @@ article {
     grid-row-end: 4;
     margin-left: 71px;
     margin-right: auto;
-    position: relative;
     margin-top: 35px;
 }
 .about_logo-image {
@@ -253,8 +248,6 @@ article {
     margin-left: 46px;
     margin-right: auto;
     margin-top: 64px;
-    position: absolute;
-    
 }
 .about_title {
     font-size: 40px;
@@ -263,8 +256,7 @@ article {
     text-align: left;
     margin-bottom: 75px;
     margin-top: 136px;
-
-
+    text-transform: uppercase;
 }
 .about_text {
     font-size: 20px;
@@ -272,16 +264,13 @@ article {
     line-height: 24px;
     letter-spacing: 0.01em;
     text-align: left;
-
 }
 .footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 180px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 180px 50px 88px;
 }
 .footer_menu-list {
     display: flex;
