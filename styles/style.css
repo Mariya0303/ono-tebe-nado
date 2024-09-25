@@ -228,8 +228,10 @@ article {
 .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat(3 1fr);
-    gap: 24px;
+    column-gap: 12px;
+    row-gap: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 .mather_element {
     background-color: #000;
@@ -238,7 +240,7 @@ article {
     width: 240px;
     grid-row-start: 1;
     grid-row-end: 4;
-    margin-left: 71px;
+    margin-left: 47px;
     margin-right: auto;
     margin-top: 35px;
 }
